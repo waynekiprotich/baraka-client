@@ -1,0 +1,8 @@
+/*
+ * The single stylesheet entry point, imported once from main.jsx.
+ * Order matters: Tailwind first (it declares the layers), then tokens, then base styles.
+ */
+
+@import 'tailwindcss';
+@import './theme.css';
+@import './base.css';
